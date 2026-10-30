@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+  <title id="title">Can Altintas</title>
+  <desc id="desc">Systems, signals, applied AI. A navy technical drawing with a cyan signal path.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0b1627"/>
+      <stop offset="1" stop-color="#132940"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8faec5" stroke-opacity=".08"/>
+    </pattern>
+    <linearGradient id="signal">
+      <stop stop-color="#5295b6" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#72dfcf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="340" rx="16" fill="url(#background)"/>
+  <rect width="1280" height="340" rx="16" fill="url(#grid)"/>
+  <path d="M64 61H120" stroke="#72dfcf" stroke-width="3"/>
+  <text x="64" y="119" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="4" fill="#a8bdce">SYSTEMS / SIGNALS / APPLIED AI</text>
+  <text x="60" y="194" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="66" letter-spacing="1" fill="#f2f7fb">Can Altintas</text>
+  <text x="64" y="243" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#b0c5d5">From sensor measurements to tested software.</text>
+  <g fill="none" stroke="#8faec5" stroke-opacity=".19">
+    <circle cx="1056" cy="166" r="106"/>
+    <circle cx="1056" cy="166" r="74"/>
+    <circle cx="1056" cy="166" r="42"/>
+    <path d="M926 166h260M1056 36v260"/>
+  </g>
+  <path d="M770 246L834 232L878 248L921 209L970 216L1008 179L1045 189L1082 124L1121 141L1176 80" fill="none" stroke="url(#signal)" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="#72dfcf">
+    <circle cx="1008" cy="179" r="4"/>
+    <circle cx="1082" cy="124" r="4"/>
+    <circle cx="1176" cy="80" r="5"/>
+  </g>
+  <path d="M64 291H1216" stroke="#8faec5" stroke-opacity=".2"/>
+  <text x="64" y="317" font-family="monospace" font-size="12" letter-spacing="2" fill="#88a5ba">C99 / PYTHON / TYPESCRIPT</text>
+  <text x="1216" y="317" text-anchor="end" font-family="monospace" font-size="12" letter-spacing="2" fill="#88a5ba">cankaan120</text>
+</svg>
