@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
-  <title id="title">Can Altintas</title>
+  <title id="title">Mel Goldstein</title>
   <desc id="desc">Systems, signals, applied AI. A navy technical drawing with a cyan signal path.</desc>
   <defs>
     <linearGradient id="background" x2="1" y2="1">
@@ -18,7 +18,7 @@
   <rect width="1280" height="340" rx="16" fill="url(#grid)"/>
   <path d="M64 61H120" stroke="#72dfcf" stroke-width="3"/>
   <text x="64" y="119" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="4" fill="#a8bdce">SYSTEMS / SIGNALS / APPLIED AI</text>
-  <text x="60" y="194" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="66" letter-spacing="1" fill="#f2f7fb">Can Altintas</text>
+  <text x="60" y="194" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="66" letter-spacing="1" fill="#f2f7fb">Mel Goldstein</text>
   <text x="64" y="243" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#b0c5d5">From sensor measurements to tested software.</text>
   <g fill="none" stroke="#8faec5" stroke-opacity=".19">
     <circle cx="1056" cy="166" r="106"/>
@@ -34,5 +34,5 @@
   </g>
   <path d="M64 291H1216" stroke="#8faec5" stroke-opacity=".2"/>
   <text x="64" y="317" font-family="monospace" font-size="12" letter-spacing="2" fill="#88a5ba">C99 / PYTHON / TYPESCRIPT</text>
-  <text x="1216" y="317" text-anchor="end" font-family="monospace" font-size="12" letter-spacing="2" fill="#88a5ba">cankaan120</text>
+  <text x="1216" y="317" text-anchor="end" font-family="monospace" font-size="12" letter-spacing="2" fill="#88a5ba">melgoldstein</text>
 </svg>
