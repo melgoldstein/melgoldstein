@@ -1,47 +1,43 @@
-![Mel Goldstein — Systems, signals, applied AI](assets/header.svg)
+![Mel Goldstein — Systems, made inspectable. A dark technical field with sensor trajectories and one coral anomaly.](assets/profile-banner.svg)
 
-[Portfolio: melgoldstein.com](https://melgoldstein.com/)
+## [melgoldstein.com](https://melgoldstein.com/)
 
-I build C and Python tools for sensor processing, machine learning, and inspectable AI workflows. My projects connect low-level systems work with the numerical methods and validation needed to make their outputs useful.
-
-**C99 / Python / TypeScript** &nbsp; · &nbsp; **Signal processing / Sensor fusion / AI infrastructure**
+I’m Mel Goldstein, working across systems programming, sensor fusion, signal processing, and applied AI. I’m an aspiring data science / forward-deployed engineer focused on inspectable evidence, explicit limits, and reproducible implementation.
 
 ## Selected engineering work
 
-| Project | What it does | Engineering focus |
-| :--- | :--- | :--- |
-| [Maritime threat ML](https://github.com/melgoldstein/isr-maritime-threat-ml) | Scores anomalous AIS/radar tracks and maps alerts into ontology contracts. | Calibration, ablations, model artifacts, API review workflow |
-| [Zero-copy IPC](https://github.com/melgoldstein/zero-copy-ringbuffer-ipc-c) | Moves messages through an allocation-free shared-memory queue. | C99, acquire/release ordering, cross-process verification |
-| [Multi-sensor EKF](https://github.com/melgoldstein/multi-sensor-track-fusion-ekf) | Fuses asynchronous radar and optical reports into tracks. | Native matrix core, Mahalanobis gates, covariance checks |
-| [Local ontology framework](https://github.com/melgoldstein/foundry-ontology-local) | Models typed objects, links, and transactional agent actions locally. | Pydantic, DuckDB, preconditions, verifiable audit chains |
-| [LLM stream guardrail](https://github.com/melgoldstein/c-llm-guardrail) | Checks streaming text for secret-like tokens, injection signatures, and JSON structure. | Bounded-memory C scanner, Python API, measured latency |
-| [Aerospace MCP server](https://github.com/melgoldstein/mcp-space-defense-osint) | Exposes satellite passes, space weather, and airspace geometry to agents. | MCP interoperability, external-feed validation, reproducible tests |
+### 01 / [Maritime ISR — anomaly detection](https://github.com/melgoldstein/isr-maritime-threat-ml)
 
-## How I approach the work
-
-- **Make behavior inspectable.** Explicit units, typed boundaries, and actionable failures.
-- **Measure the whole path.** Include wrapper costs and publish benchmark conditions.
-- **Test the uncomfortable cases.** Truncated inputs, stale observations, covariance failures, and concurrent updates.
-
-The repositories include their own setup instructions, test commands, and implementation limits. For a quick technical review, start with a selected project's README, then its tests and CI workflow.
-
-<details>
-<summary><strong>Explore the full project collection</strong></summary>
-
-### AI tooling and evaluation
-
-[Ontology drift monitor](https://github.com/melgoldstein/aip-ontology-drift-monitor) · [Grounded retrieval evaluation](https://github.com/melgoldstein/aip-tactical-rag-eval)
-
-### Signals and trajectories
-
-[ADS-B trajectory clustering](https://github.com/melgoldstein/adsb-trajectory-clustering-ml) · [Acoustic spectral features](https://github.com/melgoldstein/acoustic-sonar-doppler-fft) · [Radar return classification](https://github.com/melgoldstein/radar-rcs-target-classifier) · [UAV telemetry anomalies](https://github.com/melgoldstein/uav-telemetry-anomaly-c)
-
-### Focused engineering utilities
-
-[Altimeter Kalman filter](https://github.com/melgoldstein/kalman-1d-altimeter-filter-c) · [NMEA checksum parser](https://github.com/melgoldstein/nmea-0183-sentence-checksum-c) · [TLE orbital calculator](https://github.com/melgoldstein/TLE-orbital-period-calc) · [PCAP UDP inspector](https://github.com/melgoldstein/pcap-udp-telemetry-header-dump) · [Trajectory integrator](https://github.com/melgoldstein/ballistic-trajectory-sim-c) · [Weather window parser](https://github.com/melgoldstein/eastern-range-weather-parser)
-
-</details>
+Causal kinematic features and calibrated anomaly scoring over synthetic AIS/radar observations, with typed review records and explicit field-performance limits.
 
 ---
 
-Questions about an implementation? Open an issue in the relevant repository with a minimal example.
+### 02 / [Multi-sensor track fusion EKF](https://github.com/melgoldstein/multi-sensor-track-fusion-ekf)
+
+Four-state tracking of asynchronous radar range/bearing and optical bearing reports, with Mahalanobis gating, nearest-neighbor association, and a C99 Joseph covariance update.
+
+---
+
+### 03 / [Zero-copy SPSC ring buffer](https://github.com/melgoldstein/zero-copy-ringbuffer-ipc-c)
+
+A fixed-capacity shared-memory queue in C99, using in-place slots, acquire/release ordering, separate cache-line counters, and Linux cross-process verification.
+
+---
+
+### 04 / [Local ontology and audit ledger](https://github.com/melgoldstein/foundry-ontology-local)
+
+A local typed-object graph with deterministic agent actions, atomic revision-checked transactions, idempotent replay, and hash-chained audit receipts using Pydantic and DuckDB.
+
+---
+
+### 05 / [Bounded-memory LLM stream guardrail](https://github.com/melgoldstein/c-llm-guardrail)
+
+A C99 stream checker for secret-like tokens, literal injection signatures, and JSON bracket/string structure, with sticky chunk-spanning flags and a Python `ctypes` harness.
+
+---
+
+### 06 / [Space-defense OSINT MCP server](https://github.com/melgoldstein/mcp-space-defense-osint)
+
+A stdio MCP server for CelesTrak satellite passes, NOAA space weather, and NOTAM-derived GeoJSON envelopes, with explicit cache, timeout, and freshness behavior.
+
+[Browse all repositories](https://github.com/melgoldstein?tab=repositories)
